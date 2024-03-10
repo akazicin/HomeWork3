@@ -84,9 +84,9 @@ public class Main {
     int oneMilk = pcsMilk / 100;
     byte wightMil = 105;
     int totalWightMilk = oneMilk * wightMil;
-    byte pcsIcecream = 2;
+    byte Icecream = 2;
     byte wightIcecream = 100;
-    int totalWightIcecream = pcsIcecream * wightIcecream;
+    int totalWightIcecream = Icecream * wightIcecream;
     byte pcsEgg = 4;
     byte wightEgg = 70;
     int totalWightEgg = pcsEgg * wightEgg;
