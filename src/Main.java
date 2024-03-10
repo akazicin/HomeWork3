@@ -35,7 +35,7 @@ public class Main {
     byte classLpavlovna = 23;
     byte classAsergeevna = 27;
     byte classEandreevna = 30;
-    int totalStudents = classEandreevna+classAsergeevna+classEandreevna;
+    int totalStudents = classLpavlovna+classAsergeevna+classEandreevna;
     short totalPapers = 480;
     int everyStudentpapers = totalPapers / totalStudents;
     System.out.println( " На каждого ученика рассчитано " + everyStudentpapers + " листов бумаги");
@@ -90,10 +90,10 @@ public class Main {
     byte pcsEgg = 4;
     byte wightEgg = 70;
     int totalWightEgg = pcsEgg * wightEgg;
-    int totalWightBreackfast = totalWightBanana + totalWightMilk + totalWightIcecream + totalWightEgg;
-    System.out.println( " Вес завтрака составит " + totalWightBreackfast + " грамм ");
+    int totalWightBreakFast = totalWightBanana + totalWightMilk + totalWightIcecream + totalWightEgg;
+    System.out.println( " Вес завтрака составит " + totalWightBreakFast + " грамм ");
     short kg = 1000;
-    float wightBreakfastKg = totalWightBreackfast / (float)kg;
+    float wightBreakfastKg = totalWightBreakFast / (float)kg;
     System.out.println( " Вес завтрака соствит " + wightBreakfastKg + " кг ");
 
 //task 7
