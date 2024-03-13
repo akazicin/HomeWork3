@@ -32,10 +32,10 @@ public class Main {
 
     //task 3
 
-    byte classLpavlovna = 23;
+    byte classLPavlovna = 23;
     byte classAsergeevna = 27;
     byte classEandreevna = 30;
-    int totalStudents = classLpavlovna+classAsergeevna+classEandreevna;
+    int totalStudents = classLPavlovna+classAsergeevna+classEandreevna;
     short totalPapers = 480;
     int everyStudentpapers = totalPapers / totalStudents;
     System.out.println( " На каждого ученика рассчитано " + everyStudentpapers + " листов бумаги");
@@ -84,9 +84,9 @@ public class Main {
     int oneMilk = pcsMilk / 100;
     byte wightMil = 105;
     int totalWightMilk = oneMilk * wightMil;
-    byte Icecream = 2;
+    byte IceCream = 2;
     byte wightIcecream = 100;
-    int totalWightIcecream = Icecream * wightIcecream;
+    int totalWightIcecream = IceCream * wightIcecream;
     byte pcsEgg = 4;
     byte wightEgg = 70;
     int totalWightEgg = pcsEgg * wightEgg;
